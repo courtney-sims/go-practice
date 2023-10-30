@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func Hello() string {
-	return "Hello, Bubble World."
+func Hello(worldName string) string {
+	return "Hello, " + worldName + " World."
 }
 
 func main() {
-	fmt.Println(Hello())
+	fmt.Println(Hello("some"))
 }
